@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0A16E91524BEB200BE10CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0A16E81524BEB200BE10CF /* Foundation.framework */; };
+		CD0A17091524BEE000BE10CF /* HJCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A16F51524BEE000BE10CF /* HJCircularBuffer.h */; };
+		CD0A170A1524BEE000BE10CF /* HJCircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A16F61524BEE000BE10CF /* HJCircularBuffer.m */; };
+		CD0A170B1524BEE000BE10CF /* HJManagedImageV.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A16F71524BEE000BE10CF /* HJManagedImageV.h */; };
+		CD0A170C1524BEE000BE10CF /* HJManagedImageV.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A16F81524BEE000BE10CF /* HJManagedImageV.m */; };
+		CD0A170D1524BEE000BE10CF /* HJManagedImageVDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A16F91524BEE000BE10CF /* HJManagedImageVDelegate.h */; };
+		CD0A170E1524BEE000BE10CF /* HJMOBigFileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A16FA1524BEE000BE10CF /* HJMOBigFileCache.h */; };
+		CD0A170F1524BEE000BE10CF /* HJMOBigFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A16FB1524BEE000BE10CF /* HJMOBigFileCache.m */; };
+		CD0A17101524BEE000BE10CF /* HJMOFileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A16FC1524BEE000BE10CF /* HJMOFileCache.h */; };
+		CD0A17111524BEE000BE10CF /* HJMOFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A16FD1524BEE000BE10CF /* HJMOFileCache.m */; };
+		CD0A17121524BEE000BE10CF /* HJMOHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A16FE1524BEE000BE10CF /* HJMOHandler.h */; };
+		CD0A17131524BEE000BE10CF /* HJMOHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A16FF1524BEE000BE10CF /* HJMOHandler.m */; };
+		CD0A17141524BEE000BE10CF /* HJMOPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A17001524BEE000BE10CF /* HJMOPolicy.h */; };
+		CD0A17151524BEE000BE10CF /* HJMOPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A17011524BEE000BE10CF /* HJMOPolicy.m */; };
+		CD0A17161524BEE000BE10CF /* HJMOUser.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A17021524BEE000BE10CF /* HJMOUser.h */; };
+		CD0A17171524BEE000BE10CF /* HJMOUserBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A17031524BEE000BE10CF /* HJMOUserBase.h */; };
+		CD0A17181524BEE000BE10CF /* HJMOUserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A17041524BEE000BE10CF /* HJMOUserBase.m */; };
+		CD0A17191524BEE000BE10CF /* HJObjManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A17051524BEE000BE10CF /* HJObjManager.h */; };
+		CD0A171A1524BEE000BE10CF /* HJObjManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A17061524BEE000BE10CF /* HJObjManager.m */; };
+		CD0A171B1524BEE000BE10CF /* HJWeakMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A17071524BEE000BE10CF /* HJWeakMutableArray.h */; };
+		CD0A171C1524BEE000BE10CF /* HJWeakMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A17081524BEE000BE10CF /* HJWeakMutableArray.m */; };
+		CD0A171E1524BF0D00BE10CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0A171D1524BF0D00BE10CF /* UIKit.framework */; };
+		CD0A17601524C46500BE10CF /* UIImage+HJCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A175E1524C46500BE10CF /* UIImage+HJCache.h */; };
+		CD0A17611524C46500BE10CF /* UIImage+HJCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A175F1524C46500BE10CF /* UIImage+HJCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD0A16E51524BEB200BE10CF /* libHJCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHJCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A16E81524BEB200BE10CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD0A16EC1524BEB200BE10CF /* HJCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HJCache-Prefix.pch"; sourceTree = "<group>"; };
+		CD0A16F51524BEE000BE10CF /* HJCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCircularBuffer.h; sourceTree = "<group>"; };
+		CD0A16F61524BEE000BE10CF /* HJCircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCircularBuffer.m; sourceTree = "<group>"; };
+		CD0A16F71524BEE000BE10CF /* HJManagedImageV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJManagedImageV.h; sourceTree = "<group>"; };
+		CD0A16F81524BEE000BE10CF /* HJManagedImageV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJManagedImageV.m; sourceTree = "<group>"; };
+		CD0A16F91524BEE000BE10CF /* HJManagedImageVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJManagedImageVDelegate.h; sourceTree = "<group>"; };
+		CD0A16FA1524BEE000BE10CF /* HJMOBigFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOBigFileCache.h; sourceTree = "<group>"; };
+		CD0A16FB1524BEE000BE10CF /* HJMOBigFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOBigFileCache.m; sourceTree = "<group>"; };
+		CD0A16FC1524BEE000BE10CF /* HJMOFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOFileCache.h; sourceTree = "<group>"; };
+		CD0A16FD1524BEE000BE10CF /* HJMOFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOFileCache.m; sourceTree = "<group>"; };
+		CD0A16FE1524BEE000BE10CF /* HJMOHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOHandler.h; sourceTree = "<group>"; };
+		CD0A16FF1524BEE000BE10CF /* HJMOHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOHandler.m; sourceTree = "<group>"; };
+		CD0A17001524BEE000BE10CF /* HJMOPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOPolicy.h; sourceTree = "<group>"; };
+		CD0A17011524BEE000BE10CF /* HJMOPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOPolicy.m; sourceTree = "<group>"; };
+		CD0A17021524BEE000BE10CF /* HJMOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOUser.h; sourceTree = "<group>"; };
+		CD0A17031524BEE000BE10CF /* HJMOUserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOUserBase.h; sourceTree = "<group>"; };
+		CD0A17041524BEE000BE10CF /* HJMOUserBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOUserBase.m; sourceTree = "<group>"; };
+		CD0A17051524BEE000BE10CF /* HJObjManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJObjManager.h; sourceTree = "<group>"; };
+		CD0A17061524BEE000BE10CF /* HJObjManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJObjManager.m; sourceTree = "<group>"; };
+		CD0A17071524BEE000BE10CF /* HJWeakMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeakMutableArray.h; sourceTree = "<group>"; };
+		CD0A17081524BEE000BE10CF /* HJWeakMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeakMutableArray.m; sourceTree = "<group>"; };
+		CD0A171D1524BF0D00BE10CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD0A175E1524C46500BE10CF /* UIImage+HJCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HJCache.h"; sourceTree = "<group>"; };
+		CD0A175F1524C46500BE10CF /* UIImage+HJCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HJCache.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0A16E21524BEB200BE10CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A171E1524BF0D00BE10CF /* UIKit.framework in Frameworks */,
+				CD0A16E91524BEB200BE10CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0A16DA1524BEB200BE10CF = {
+			isa = PBXGroup;
+			children = (
+				CD0A16EA1524BEB200BE10CF /* HJCache */,
+				CD0A16E71524BEB200BE10CF /* Frameworks */,
+				CD0A16E61524BEB200BE10CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0A16E61524BEB200BE10CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A16E51524BEB200BE10CF /* libHJCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0A16E71524BEB200BE10CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A171D1524BF0D00BE10CF /* UIKit.framework */,
+				CD0A16E81524BEB200BE10CF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD0A16EA1524BEB200BE10CF /* HJCache */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A175E1524C46500BE10CF /* UIImage+HJCache.h */,
+				CD0A175F1524C46500BE10CF /* UIImage+HJCache.m */,
+				CD0A16F51524BEE000BE10CF /* HJCircularBuffer.h */,
+				CD0A16F61524BEE000BE10CF /* HJCircularBuffer.m */,
+				CD0A16F71524BEE000BE10CF /* HJManagedImageV.h */,
+				CD0A16F81524BEE000BE10CF /* HJManagedImageV.m */,
+				CD0A16F91524BEE000BE10CF /* HJManagedImageVDelegate.h */,
+				CD0A16FA1524BEE000BE10CF /* HJMOBigFileCache.h */,
+				CD0A16FB1524BEE000BE10CF /* HJMOBigFileCache.m */,
+				CD0A16FC1524BEE000BE10CF /* HJMOFileCache.h */,
+				CD0A16FD1524BEE000BE10CF /* HJMOFileCache.m */,
+				CD0A16FE1524BEE000BE10CF /* HJMOHandler.h */,
+				CD0A16FF1524BEE000BE10CF /* HJMOHandler.m */,
+				CD0A17001524BEE000BE10CF /* HJMOPolicy.h */,
+				CD0A17011524BEE000BE10CF /* HJMOPolicy.m */,
+				CD0A17021524BEE000BE10CF /* HJMOUser.h */,
+				CD0A17031524BEE000BE10CF /* HJMOUserBase.h */,
+				CD0A17041524BEE000BE10CF /* HJMOUserBase.m */,
+				CD0A17051524BEE000BE10CF /* HJObjManager.h */,
+				CD0A17061524BEE000BE10CF /* HJObjManager.m */,
+				CD0A17071524BEE000BE10CF /* HJWeakMutableArray.h */,
+				CD0A17081524BEE000BE10CF /* HJWeakMutableArray.m */,
+				CD0A16EB1524BEB200BE10CF /* Supporting Files */,
+			);
+			path = HJCache;
+			sourceTree = "<group>";
+		};
+		CD0A16EB1524BEB200BE10CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A16EC1524BEB200BE10CF /* HJCache-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD0A16E31524BEB200BE10CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A17091524BEE000BE10CF /* HJCircularBuffer.h in Headers */,
+				CD0A170B1524BEE000BE10CF /* HJManagedImageV.h in Headers */,
+				CD0A170D1524BEE000BE10CF /* HJManagedImageVDelegate.h in Headers */,
+				CD0A170E1524BEE000BE10CF /* HJMOBigFileCache.h in Headers */,
+				CD0A17101524BEE000BE10CF /* HJMOFileCache.h in Headers */,
+				CD0A17121524BEE000BE10CF /* HJMOHandler.h in Headers */,
+				CD0A17141524BEE000BE10CF /* HJMOPolicy.h in Headers */,
+				CD0A17161524BEE000BE10CF /* HJMOUser.h in Headers */,
+				CD0A17171524BEE000BE10CF /* HJMOUserBase.h in Headers */,
+				CD0A17191524BEE000BE10CF /* HJObjManager.h in Headers */,
+				CD0A171B1524BEE000BE10CF /* HJWeakMutableArray.h in Headers */,
+				CD0A17601524C46500BE10CF /* UIImage+HJCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD0A16E41524BEB200BE10CF /* HJCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A16F21524BEB200BE10CF /* Build configuration list for PBXNativeTarget "HJCache" */;
+			buildPhases = (
+				CD0A16E11524BEB200BE10CF /* Sources */,
+				CD0A16E21524BEB200BE10CF /* Frameworks */,
+				CD0A16E31524BEB200BE10CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJCache;
+			productName = HJCache;
+			productReference = CD0A16E51524BEB200BE10CF /* libHJCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0A16DC1524BEB200BE10CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CD0A16DF1524BEB200BE10CF /* Build configuration list for PBXProject "HJCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD0A16DA1524BEB200BE10CF;
+			productRefGroup = CD0A16E61524BEB200BE10CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0A16E41524BEB200BE10CF /* HJCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0A16E11524BEB200BE10CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A170A1524BEE000BE10CF /* HJCircularBuffer.m in Sources */,
+				CD0A170C1524BEE000BE10CF /* HJManagedImageV.m in Sources */,
+				CD0A170F1524BEE000BE10CF /* HJMOBigFileCache.m in Sources */,
+				CD0A17111524BEE000BE10CF /* HJMOFileCache.m in Sources */,
+				CD0A17131524BEE000BE10CF /* HJMOHandler.m in Sources */,
+				CD0A17151524BEE000BE10CF /* HJMOPolicy.m in Sources */,
+				CD0A17181524BEE000BE10CF /* HJMOUserBase.m in Sources */,
+				CD0A171A1524BEE000BE10CF /* HJObjManager.m in Sources */,
+				CD0A171C1524BEE000BE10CF /* HJWeakMutableArray.m in Sources */,
+				CD0A17611524C46500BE10CF /* UIImage+HJCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD0A16F01524BEB200BE10CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD0A16F11524BEB200BE10CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0A16F31524BEB200BE10CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HJCache.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HJCache/HJCache-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD0A16F41524BEB200BE10CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HJCache.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HJCache/HJCache-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0A16DF1524BEB200BE10CF /* Build configuration list for PBXProject "HJCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A16F01524BEB200BE10CF /* Debug */,
+				CD0A16F11524BEB200BE10CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0A16F21524BEB200BE10CF /* Build configuration list for PBXNativeTarget "HJCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A16F31524BEB200BE10CF /* Debug */,
+				CD0A16F41524BEB200BE10CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0A16DC1524BEB200BE10CF /* Project object */;
+}

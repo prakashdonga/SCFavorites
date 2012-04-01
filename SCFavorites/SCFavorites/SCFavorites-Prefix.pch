@@ -1,0 +1,39 @@
+//
+// Prefix header for all source files of the 'SCFavorites' target in the 'SCFavorites' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define HTTP_ERROR_STATES_CODE_MIN 200
+#define HTTP_ERROR_STATES_CODE_MAX 299
+
+#define API_HOST @"https://api.soundcloud.com"
+
+//Track Response Keys
+#define TRACK_ID_KEY @"id"
+#define TRACK_WAVEFORM_URL_KEY @"waveform_url"
+#define TRACK_COMMENT_COUNT_KEY @"comment_count"
+#define TRACK_TITLE_KEY @"title"
+#define TRACK_FAV_COUNT_KEY @"favoritings_count"
+#define TRACK_PLAY_COUNT_KEY @"playback_count"
+#define TRACK_USER_FAV_KEY @"user_favorite"
+#define TRACK_DURATION_KEY @"duration"
+#define TRACK_SC_URL @"permalink_url"
+
+//Following Response Keys
+#define FOLLOWING_ID_KEY @"id"
+
+//Comment Response Keys
+#define USER_KEY @"user"
+#define AVATAR_KEY @"avatar_url"
+#define COMMENT_TIMESTAMP_KEY @"timestamp"
+#define COMMENT_BODY @"body"
