@@ -11,6 +11,6 @@
 @interface UIImage (HJCache)
 
 - (UIImage *)crop:(CGRect)rect;
-- (UIImage *)imageByResizingTo:(CGSize)newSize forRetinaDisplay:(BOOL)forRetinaDisplay;
+- (UIImage *)imageResizingTo:(CGSize)newSize forRetinaDisplay:(BOOL)forRetinaDisplay;
 
 @end

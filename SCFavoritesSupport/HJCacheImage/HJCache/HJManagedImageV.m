@@ -133,7 +133,7 @@
     {
         if (theImage.size.width > 320) 
         {
-            theImage = [theImage imageByResizingTo:CGSizeMake(320.0, 50.0) 
+            theImage = [theImage imageResizingTo:CGSizeMake(320.0, 50.0) 
                                   forRetinaDisplay:YES];
         }
         

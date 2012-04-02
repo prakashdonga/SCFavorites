@@ -675,8 +675,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -697,8 +697,6 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PROVISIONING_PROFILE = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -709,8 +707,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
@@ -725,8 +723,6 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PROVISIONING_PROFILE = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -735,8 +731,8 @@
 		CDBD2BFA152216B6007DD173 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCFavorites/SCFavorites-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -754,8 +750,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -764,8 +758,8 @@
 		CDBD2BFB152216B6007DD173 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nicolas Aubin (LR5J3LQQTZ)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCFavorites/SCFavorites-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -783,8 +777,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3870D1FA-8FBA-4B96-9410-FDC66782651C";
 				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)\"";
 				WRAPPER_EXTENSION = app;
 			};

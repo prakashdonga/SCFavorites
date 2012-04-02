@@ -29,11 +29,11 @@
 }
 
 
-- (UIImage *)imageByResizingTo:(CGSize)newSize forRetinaDisplay:(BOOL)forRetinaDisplay
+- (UIImage *)imageResizingTo:(CGSize)newSize forRetinaDisplay:(BOOL)forRetinaDisplay
 {
     if (forRetinaDisplay && [[UIScreen mainScreen] respondsToSelector:@selector(scale)]) {
         if ([[UIScreen mainScreen] scale] == 2.0) {
-            UIGraphicsBeginImageContextWithOptions(newSize, YES, 2.0);
+            UIGraphicsBeginImageContextWithOptions(newSize, NO, 2.0);
         } else {
             UIGraphicsBeginImageContext(newSize);
         }
