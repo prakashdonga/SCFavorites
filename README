@@ -1,0 +1,9 @@
+SCFavorites folder contains the application. and SCFavoritesSupport contains the supporting libraries for this project.
+
+Library used are as mentioned below.
+1) SoundCloudAPI:      https://github.com/soundcloud/CocoaSoundCloudAPI
+2) CocoaSoundCloudUI:  https://github.com/soundcloud/CocoaSoundCloudUI
+3) JSONKit:            https://github.com/nxtbgthng/JSONKit
+4) OAuth2Client:       https://github.com/nxtbgthng/OAuth2Client
+5) OHAttributedLabel:  https://github.com/nxtbgthng/OHAttributedLabel
+6) HJCache:            https://github.com/markofjohnson/HJCache
